@@ -1,4 +1,6 @@
 /*
+ * Modified by nekoy3 on 2026-10-27: experimental signaling-address candidate inference.
+ *
  * Copyright 2026 CloudburstMC
  *
  * CloudburstMC licenses this file to you under the Apache License,
@@ -311,6 +313,7 @@ public class NetherNetServerChannel extends AbstractServerChannel {
         };
 
         candidates.setDescription(offerSdp, SessionDescriptionType.OFFER);
+        candidates.predictSignalingCandidate(offerSdp, clientAddress);
         log.trace("Remote description set for {}", connectionId);
         // Candidates only apply once the offer is in, so this is the earliest they can go
         remoteSignals.deliverTo(handler);
