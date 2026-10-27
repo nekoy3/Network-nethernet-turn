@@ -31,3 +31,12 @@ See [Apache License 2.0, section 4](https://www.apache.org/licenses/LICENSE-2.0#
 ## Review
 
 Compare `upstream-base` with `codex/signaling-candidate` or `main`.
+
+## Validation (2026-10-27)
+
+55 selected tests passed with zero failures/errors.
+
+- `org.cloudburstmc.netty.channel.nethernet.signaling.ForwardedForTest`: 11 tests
+- `org.cloudburstmc.netty.util.nethernet.SdpUtilTest`: 44 tests
+
+`publishToMavenLocal` completed for the downstream coordinates; no artifact was uploaded to a remote Maven repository.

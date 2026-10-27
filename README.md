@@ -1,4 +1,4 @@
-> **Unofficial downstream source copy by nekoy3.** See [DOWNSTREAM-CHANGES.md](DOWNSTREAM-CHANGES.md) for the pinned upstream base, source changes, build instructions, license notes and comparison branches. Original license: Apache-2.0.
+> **Unofficial downstream source copy by nekoy3 (modified 2026-10-27).** See [DOWNSTREAM-CHANGES.md](DOWNSTREAM-CHANGES.md) for the pinned upstream base, source changes, build instructions, license notes and comparison branches. Original license: Apache-2.0.
 
 # Network
 
